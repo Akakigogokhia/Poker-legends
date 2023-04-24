@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 600px) {
   .prizes {
-    padding-top: 14px;
+    padding: 14px;
   }
   .prizes-item > p {
     font-size: 13px;

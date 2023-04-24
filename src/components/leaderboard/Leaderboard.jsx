@@ -18,7 +18,9 @@ const Leaderboard = ({ leaderboard }) => {
         {leaderboard.map((item, index) => {
           return (
             <div className='leaderboard-item' key={index}>
-              <div className='leaderboard-rank'>{index + 1}</div>
+              <div className='leaderboard-rank-container'>
+                <div className='leaderboard-rank'>{index + 1}</div>
+              </div>
               <div className='leaderboard-prizes'>
                 <div className='leaderboard-money'>{item.money}</div>
                 <div className='leaderboard-prize'>

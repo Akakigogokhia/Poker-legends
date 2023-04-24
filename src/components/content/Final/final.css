@@ -172,7 +172,7 @@
   border-radius: 2px;
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 800px) {
   .final-body {
     flex-direction: column;
     padding: 20px 15px;
